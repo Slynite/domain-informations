@@ -1,6 +1,7 @@
 <p align="center">
     <img src="https://github.com/Slynite/website/blob/master/slynite-logo.png">
 </p>
+
 # domain-parked
 Site to display a domain owner notice
 
