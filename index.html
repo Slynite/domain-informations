@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>This domain is registred by Slynite</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,follow">
+  <meta name="description" content="This domain is registred by Slynite.">
+  <link rel="icon" href="./dist/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./dist/favicon/apple-icon.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./dist/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./dist/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./dist/favicon/site.webmanifest">
+
+
+  <link href="./dist/output.css" rel="stylesheet">
+  <script>
+    function getTld() {
+      const ownedDomains = [
+        "slynite.com",
+        "slynite.de",
+        "cactusserver.net",
+        "sslnk.com",
+        "travelventures.app",
+        "activehq.work"
+      ]
+
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const product = urlParams.get('tld');
+      if(product == null || !ownedDomains.includes(product)) window.location.replace("https://slynite.com");
+      return product;
+    }
+  </script>
+</head>
+<body>
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-zinc-900 py-6 sm:py-12 px-2">
+        <div class="relative bg-zinc-800 px-6 pb-8 pt-10 shadow-xl ring-1 ring-gray-900/5 mx-auto max-w-lg rounded-lg">
+          <div class="mx-auto max-w-md">
+            <img src="./dist/slynite_logo_310x310.png" class="max-h-14" alt="Slynite Logo" />
+            <div class="divide-y divide-gray-300/50">
+              <div class="space-y-6 py-8 text-base leading-7 text-gray-200">
+                <p><code class="text-transparent bg-clip-text bg-gradient-to-r from-gradient-primary to-gradient-secondary inline-block">
+                  <script>
+                    document.write(getTld())
+                  </script>
+                </code> is registred by Slynite.</p>
+                <p>We have registered this domain to provide one of our services or future services. Slynite develops software with a focus on user privacy and data protection. </p>
+              </div>
+              <div class="pt-8 text-base font-semibold leading-7">
+                <p class="text-gray-200">Want to learn more about Slynite?</p>
+                <p>
+                  <a href="https://slynite.com" class="text-transparent bg-clip-text bg-gradient-to-r from-gradient-primary to-gradient-secondary inline-block">Go to slynite.com &rarr;</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
